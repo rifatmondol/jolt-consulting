@@ -1,0 +1,426 @@
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+@media (max-width: 1200px) {
+    
+    .knowledge-sub-menu ul.srv-ul {
+        width: 100%;
+    }
+    .knowledge-sub-menu ul.srv-ul li {
+        margin-left: 30px;
+    }
+    .machinery-systems-left p {
+        font-size: 17px;
+    }
+    .machinery-systems-right ul li, .machinery-systems-left ul li {
+    font-size: 17px;
+    }
+    .knowledge-exchange-full .knowledge-header img {
+        width: 14%;
+    }
+    .knowledge-exchange-full .knowledge-header h2 {
+        font-size: 25px;
+    }
+}
+
+/********************************************************/
+/* Min-Width 993PX     **********************************/
+/********************************************************/
+@media (min-width: 992px) {
+
+}
+
+
+
+/********************************************************/
+/* Max-Width 991PX     **********************************/
+/********************************************************/
+@media (max-width: 991px) {
+    .knowledge-exchange-full .knowledge-header h2 {
+        font-size: 22px;
+    }
+}
+
+
+/********************************************************/
+/* Max-Width 767PX     **********************************/
+/********************************************************/
+@media (max-width: 768px) {
+    /* =======start index.html======= */
+	.roadmap-left img {
+        width: 79%;
+        padding-left: 14px;
+    }
+    /* =======end index.html======= */
+    .service-assess {
+        display: block;
+    }
+    .service-assess-left {
+        width: 100%;
+    }
+    .service-assess-left img{
+        width: 100%;
+    }
+    .service-assess-right {
+        width: 100%;
+        margin-top: 50px;
+    }
+    /* =======start azure.html======= */
+    .service-assess-right a h2 {
+        font-size: 22px;
+    }
+    .owl-prev .fa-angle-left
+    {
+        position: absolute;
+        right: -10px;
+        top: 50%;
+    }
+    .owl-next .fa-angle-right{
+        position: absolute;
+        top: 50%;
+        right: 10px;
+    }
+    .machinery-systems {
+        display: block;
+    }
+    .machinery-systems-left,
+    .machinery-systems-right{
+        width: 100%;
+    }
+    .machinery-systems-right {
+        padding-left: 0;
+    }
+    .knowledge-exchange-full .knowledge-header img {
+        left: 36%;
+    }
+
+
+    /* =======end azure.html======= */
+}
+
+
+
+/********************************************************/
+/* Max-Width 576PX     **********************************/
+/********************************************************/
+@media (max-width: 576px) {
+    /* =======start index.html======= */
+    .knowledge-exchange-full .knowledge-header h2 {
+        font-size: 20px!important;
+    }
+    .knowledge-exchange-full .knowledge-header img {
+        left: 35%!important;
+    }
+    .roadmap-main {
+        display: inline-block;
+    }
+    .roadmap-left {
+        width: 100%;
+    }
+    .roadmap-right {
+        width: 100%;
+    }
+    .roadmap-left img {
+        width: 55%;
+        margin-left: 83px;
+    }
+    .roadmap-right p {
+        font-size: 18px;
+        padding-left: 19px;
+    }
+    .roadmap-right h1 {
+        text-align: center;
+    }
+    .roadmap-right h2 {
+        padding-left: 21px;
+    }
+    .roadmap-main {
+        margin-top: 0px;
+    }
+    /* =======end index.html======= */
+    
+    /* =======start azure.html======= */
+    .service-assess {
+        display: inline-block;
+    }
+    .service-assess-left {
+        width: 100%;
+    }
+    .service-assess-right {
+        width: 100%;
+    }
+    .service-assess-left img {
+        width: 65%;
+        margin-left: 67px;
+    }
+     .fas.fa-download {
+        bottom: 62px;
+    }
+    .machinery-systems {
+        display: inline-block;
+    }
+    .machinery-systems-left {
+        width: 100%;
+    }
+    .machinery-systems-right {
+        padding-left: 0px;
+    }
+    .machinery-systems-right {
+        width: 100%;
+    }
+    /* =======end azure.html======= */
+    /* =======start technology.html======= */
+    .heading-left img {
+        width: 81%;
+        margin-left: 6px;
+    }
+    .heading-right h3 {
+        font-size: 17px;
+    }
+    .consulting-group2 img {
+        width: 48%;
+        
+    }
+    .consulting-group2 p {
+        font-size: 17px;
+    }
+
+    .azure-header p, .azure-content p, .azure-content ul {
+        font-size: 16px;
+    }
+    /* =======end technology.html======= */
+}
+
+
+/********************************************************/
+/* Max-Width 400px     **********************************/
+/********************************************************/
+
+@media (max-width: 480px) {
+    .container{
+        max-width: 390px;
+    }
+    .unique-post3 h3 {
+        font-size: 23px;
+    }
+    .unique-post3 p {
+        font-size: 17px;
+    }
+    .unique-post .fas.fa-download {
+        top: 5px;
+    }
+    .unique-post h2,
+    .unique-post2 h2  {
+        font-size: 17px;
+    }
+    .unique-post3 ul li {
+        list-style: disc;
+        font-size: 16px;
+    }
+    .knowledge-exchange-full .knowledge-header img {
+    left: 32%!important;
+}
+}
+
+
+/********************************************************/
+/* Max-Width 400px     **********************************/
+/********************************************************/
+
+@media (max-width: 400px) {
+     /* =======start index.html======= */
+    .roadmap-left img {
+        width: 55%;
+        margin-left: 44px;
+    }
+     /* =======end index.html======= */
+    /* =======start azure.html======= */
+    .service-assess-left img {
+        width: 75%;
+        margin-left: 33px;
+    }
+    .service-assess-right a h2 {
+        font-size: 19px;
+    }
+    .service-assess-right a h2 {
+        padding-left: 26px;
+        font-size: 14px;
+    }
+    .fas.fa-download {
+        font-size: 13px;
+    }
+    .fas.fa-download {
+        bottom: 59px;
+    }
+    .machinery-systems-left p {
+        font-size: 16px;
+    }
+    .machinery-systems-left ul {
+        font-size: 16px;
+    }
+    .machinery-systems-right ul {
+        font-size: 16px;
+    }
+    .service-assess-right p {
+        font-size: 17px;
+    }    
+    /* =======end azure.html======= */
+    /* =======start salesforce.html======= */
+    .ransition-area p {
+        font-size: 17px;
+    }
+    .ransition-area h2 {
+        font-size: 18px;
+    }
+    .unique-post img {
+        width: 80%;
+    }
+    .unique-post h2 {
+        font-size: 17px;
+    }
+    .unique-post p {
+        font-size: 17px;
+    }
+    .unique-post2 img {
+        width: 72%;
+    }
+    .unique-post2 p {
+        font-size: 17px;
+    }
+    .unique-post2 h2 {
+        font-size: 18px;
+    }
+    .unique-post3 img {
+        width: 65%;
+    }
+    .unique-post3 p {
+        font-size: 17px;
+    }
+    .unique-post3 ul {
+        font-size: 17px;
+    }
+    .unique-post3 h3 {
+        font-size: 23px;
+    }
+    .unique-post3 h2 {
+        font-size: 17px;
+    }
+    .unique-post4 img {
+        width: 73%;
+    }
+    .unique-post4 p {
+        font-size: 17px;
+    }
+    /* =======end salesforce.html======= */
+    /* =======start technology.html======= */
+    
+    .consulting-group-main p {
+        font-size: 17px;
+    }
+    .consulting-group-heading {
+        display: inline-block;
+    }
+    .heading-left {
+        width: 100%;
+    }
+    .heading-right {
+        width: 100%;
+    }
+    .consulting-group2 img {
+        width: 72%;
+    }
+    .heading-left img {
+        width: 58%;
+        margin-left: 42px;
+    }
+    .heading-right h3 {
+        font-size: 16px;
+        margin-left: 7px;
+    }
+    .consulting-group-main p {
+        font-size: 16px;
+        margin-left: 8px;
+    }
+    .consulting-group2 h2 {
+        margin-left: 27px;
+        margin-top: 61px;
+        font-size: 15px;
+    }
+    
+    /* =======end technology.html======= */
+}
+
+
+/********************************************************/
+/* Max-Width 320     **********************************/
+/********************************************************/
+@media (max-width: 320px) {
+    /* =======start index.html======= */
+    .service-roadmap-main h1 {
+        font-size: 21px;
+    }
+    .roadmap-right h2 {
+        padding-left: 6px;
+        font-size: 13px;
+    }
+    .roadmap-right h1 {
+        font-size: 20px;
+    }
+    .roadmap-right p {
+        font-size: 16px;
+    }
+    .service-heading p {
+        font-size: 16px;
+    }
+     .service-roadmap-main h1 {
+        font-size: 23px;
+    }
+    /* =======end index.html======= */
+    
+     /* =======start salesforce.html======= */
+    .unique-post2 .fas.fa-download {
+        bottom: 66px;
+    }
+    .unique-post3 .fas.fa-download {
+        bottom: 81px;
+    }
+    .unique-post4 .fas.fa-download {
+        bottom: 25px !important;
+    }
+    /* =======end salesforce.html======= */
+    /* =======start technology.html======= */
+    .consulting-group2 .fas.fa-download {
+        bottom: 79px !important;
+    }
+
+    .knowledge-exchange-full .knowledge-header img {
+        width: 30%;
+        top: 35%;
+    }
+    .knowledge-exchange-full .knowledge-header h2 {
+        left: 50%;
+        top: 55%;
+    }
+    .knowledge-header h2.str{
+        top: 30%;
+    }
+    /* =======end technology.html======= */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

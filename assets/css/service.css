@@ -1,0 +1,541 @@
+/* ==========================================================================
+   Base styles: opinionated defaults
+   ========================================================================== */
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+/*
+ * Customize the background color to match your design.
+ */
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+/*
+ * A better looking default horizontal rule
+ */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+/*
+ * Remove the gap between audio, canvas, iframes,
+ * images, videos and the bottom of their containers:
+ * https://github.com/h5bp/html5-boilerplate/issues/440
+ */
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+/*
+ * Remove default fieldset styles.
+ */
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+ * Allow only vertical resizing of textareas.
+ */
+
+textarea {
+  resize: vertical;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+*{
+  font-family: 'Poppins', sans-serif;
+}
+
+body a{
+  text-decoration: none;
+  color: #000;
+}
+ul li{
+  list-style: none;
+}
+.container{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+ .nav-section {
+  display: flex;
+  margin-top: 15px;
+}
+.nav-section .logo{
+  width: 30%;
+}
+.nav-section .logo, .container .nav-section .menu-section {
+  margin-bottom: 15px;
+}
+.nav-section .menu-section{
+  width: 70%;
+}
+.nav-section .menu-section .toggle {
+    font-size: 35px;
+    color: black;
+    width: 100%;
+    display: none;
+    text-align: right;
+}
+.nav-section .menu-section ul{
+  display: flex;
+  float: right;
+}
+.nav-section .menu-section ul li{
+  padding: 10px 10px;
+}
+.nav-section .menu-section ul li a{
+  padding: 10px 10px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+
+
+/* Knowledge exchange css */
+.knowledge-exchange-full .knowledge-header{
+  background-image: url('../img/slider.png');
+  height: 250px;
+  background-size: cover;
+  position: relative;
+}
+.knowledge-exchange-full .knowledge-header h2{
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 30px;
+  margin: 0;
+}
+.knowledge-sub-menu{
+  background: #ECF5FA;
+  padding: 1px;
+}
+.responsive-sub-menu p{
+  text-align: center;
+  font-size: 22px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 600;
+  display: none;
+}
+.responsive-sub-menu p i{
+  font-size: 22px;
+}
+.knowledge-sub-menu ul {
+    display: flex;
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+}
+.knowledge-sub-menu ul li {
+    padding: 10px 0px;
+    margin-left: 47px;
+}
+.knowledge-sub-menu ul li a {
+    padding: 10px 0px;
+    font-weight: 500;
+    font-size: 19px;
+}
+.knowledge-sub-menu ul li a:hover{
+  text-decoration: underline;
+}
+
+
+
+/*
+=====================
+start heading-area
+====================
+*/
+.section-main{
+    margin-bottom: 130px;
+}
+.service-heading p {
+    font-size: 19px;
+    padding-top: 10px;
+    line-height: 26px;
+    color: #0E2246;
+    font-weight: 500;
+}
+.service-heading-main {
+    padding: 35px 0px;
+}
+/*
+=====================
+end heading-area
+====================
+*/
+
+/*
+==========================
+start Service Roadmap-area
+=========================
+*/
+.service-roadmap {
+    border: 3px solid #ECF5FA;
+}
+.service-roadmap-main h1 {
+    font-size: 32px;
+    margin-top: 0px;
+    padding-bottom: 43px;
+    color: #0E2246;
+}
+.roadmap-main {
+    display: flex;
+}
+.roadmap-left {
+    width: 30%;
+}
+.roadmap-right {
+    width: 70%;
+}
+.roadmap-left img {
+    width: 43%;
+    padding-left: 100px;
+}
+.mt-0 {
+    padding-top: 31px;
+}
+.roadmap-right h1 {
+    font-size: 24px;
+    padding-bottom: 0px;
+    margin-bottom: 12px;
+    color: #0E2246;
+    font-weight: 500;
+}
+.roadmap-right p {
+    font-size: 18px;
+    margin-top: 0px;
+    line-height: 29px;
+    color: #0E2246;
+    font-weight: 500;
+}
+.roadmap-main {
+    margin-top: 41px;
+}
+.roadmap-right a {
+    color: #E55F00;
+    text-decoration: none;
+}
+.roadmap-right a span {
+    font-weight: 600;
+}
+/*
+========================
+end Service Roadmap-area
+========================
+*/
+
+
+/* ========= FOOTER ===========*/
+/* Connect css*/
+
+.get-in {
+    background-image: url(../img/contact-bg.png);
+    height: 375px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.get-in .connect{
+    width: 60%;
+    margin: 0 auto;
+    float: right;
+    color: #fff;
+    text-align: center;
+}
+.get-in .connect h2{
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.get-in .connect p{
+    font-size: 20px;
+}
+.get-in .connect input{
+    width: 35%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    text-indent: 10px;
+    font-size: 17px;
+}
+
+.get-in .connect input:focus,
+.get-in .connect button:focus,
+.footer-button .sc:focus{
+  outline: none;
+}
+.get-in .connect button{
+  padding: 14px 20px;
+  border: none;
+  background: #E2713E;
+  color: #fff;
+  font-size: 18px;
+  margin-left: -60px;
+  margin-top: -1px;
+  cursor: pointer;
+  font-weight: 600;
+}
+.get-in .connect .social-icon{
+  margin-top: 100px
+}
+.get-in .connect .social-icon a {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1px solid #7fdde6;
+    display: inline-block;
+    margin-right: 30px;
+}
+.get-in .connect .social-icon i {
+    font-size: 30px;
+    color: #fff;
+    line-height: 50px;
+}
+
+/* footer bottom */
+.footer-bottom .container .footer-button {
+  width: 15%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.footer-bottom .container .footer-button .sc{
+  padding: 10px 15px;
+  border: none;
+  background: #E2713E;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 7px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.site-link a{
+  display: inline-block;
+  margin: 65px;
+}
+.site-link span {
+  display: inline-block;
+  margin-left: 65px;
+  font-size: 25px;
+  font-weight: 600;
+  color: #e2713e;
+}
+.site-link span img{
+  margin-right: 15px;
+}
+.footer-bottom p{
+  background: #f1fbff;
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+  font-weight: 500;
+}
+
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+/*
+ * Hide visually and from screen readers
+ */
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+/*
+ * Hide only visually, but have it available for screen readers:
+ * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
+ *
+ * 1. For long content, line feeds are not interpreted as spaces and small width
+ *    causes content to wrap 1 word per line:
+ *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
+ */
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+/*
+ * Extends the .sr-only class to allow the element
+ * to be focusable when navigated to via the keyboard:
+ * https://www.drupal.org/node/897638
+ */
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+/*
+ * Hide visually and from screen readers, but maintain layout
+ */
+
+.invisible {
+  visibility: hidden;
+}
+
+/*
+ * Clearfix: contain floats
+ *
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    `contenteditable` attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that receive the `clearfix` class.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+/* ==========================================================================
+   EXAMPLE Media Queries for Responsive Design.
+   These examples override the primary ('mobile first') styles.
+   Modify as content requires.
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+  /* Style adjustments for viewports that meet the condition */
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
+}
+
+/* ==========================================================================
+   Print styles.
+   Inlined to avoid the additional HTTP request:
+   https://www.phpied.com/delay-loading-your-print-css/
+   ========================================================================== */
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  /*
+   * Don't show links that are fragment identifiers,
+   * or use the `javascript:` pseudo protocol
+   */
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  /*
+   * Printing Tables:
+   * https://web.archive.org/web/20180815150934/http://css-discuss.incutio.com/wiki/Printing_Tables
+   */
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+

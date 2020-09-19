@@ -1,0 +1,790 @@
+/********************************************************/
+/* Max-Width 1200PX     *********************************/
+/********************************************************/
+@media (max-width: 1200px) {
+	.container{
+		max-width: 1000px;
+	}
+	.footer-bottom .container .footer-button {
+    width: 18%;
+  }
+  .footer-bottom .container .footer-button .sc {
+    padding: 15px 15px;
+  }
+	.site-link a {
+    margin-left: 17px;
+	}
+	.site-link span {
+    margin-left: 6px;
+	}
+
+						/* Home section */
+	.customer-service-text h2 {
+    margin-bottom: 45px;
+	}
+	.customer-service-text p {
+    width: 85%;
+  }
+	.customer-relation-item .relation-right h2 {
+    font-size: 28px;
+  }
+  .owl-carousel .owl-nav {
+    top: 43%;
+	}
+	.fa-arrow-circle-left, .fa-arrow-circle-right {
+    top: 10%;
+  }
+  .fa-arrow-circle-right {
+    right: 25px;
+	}
+
+  						/* Contact */
+  .contact-location {
+    margin-top: 100px;
+	}
+  .contact-location .location-left iframe{
+  	width: 100%;
+  }
+  .location-right .location-text h2 {
+    margin-top: 0;
+	}
+	.location-text ul li {
+    line-height: 2;
+  }
+
+  /* knowledge-exchange */
+  .knowledge-sub-menu ul {
+    width: 71%;
+	}
+  .knowledge-sub-menu ul li {
+    margin-left: 40px;
+	}
+	.knowledge-article-right .knowledge-right-item {
+    margin-left: 50px;
+  }
+  .knowledge-article-right .knowledge-right-item .knowledge-item-text {
+    width: 90%;
+	}
+
+  /* Case studies */
+  .knowledge-exchange-full .knowledge-header p {
+    width: 100%;
+	}
+}
+
+/********************************************************/
+/* Min-Width 993PX     **********************************/
+/********************************************************/
+@media (min-width: 992px) {
+
+}
+
+/********************************************************/
+/* Max-Width 991PX     **********************************/
+/********************************************************/
+@media (max-width: 991px) {
+	.container{
+		max-width: 900px;
+	}
+	.nav-section .menu-section ul li a,
+	.growth-text p,
+	.customer-service-text p {
+    font-size: 16px;
+  }
+  .footer-bottom .container .footer-button {
+	    width: 20%;
+	}
+	.site-link{
+		margin-top: 50px;
+	}
+	.site-link a {
+    margin-left: 0px;
+    margin: 15px;
+	}
+	.site-link span {
+    margin-left: 10px;
+	}
+
+					/* Home section */
+	.growth-text h1{
+    font-size: 30px;
+	}
+	.customer-header h2 {
+    font-size: 30px;
+	}
+	.customer-service-text h2 {
+    font-size: 23px;
+	}
+	.customer-relation-item .relation-right h2,
+	.customer-relation-item .relation-right p a {
+    font-size: 21px;
+	}
+	.customer-relation-item .relation-right p {
+    font-size: 15px;
+  }
+  .customer-section .btn a {
+    font-size: 19px;
+  }
+  .owl-carousel .owl-nav {
+    top: 37%;
+	}
+
+					/* Contact */
+	.location-text ul li {
+    line-height: 1.7;
+	}
+	
+	/* Knowledge exchange */
+	.knowledge-sub-menu ul li a {
+    font-size: 17px;
+	}
+	.knowledge-article-aside h2{
+		font-size: 20px;
+	}
+	.knowledge-article-aside .filtering ul{
+		padding: 0;
+		margin-left: 20px;
+	}
+	.knowledge-article-aside .filtering ul li{
+		font-size: 13px;
+	}
+}
+
+
+
+
+
+/********************************************************/
+/* Max-Width 768PX     **********************************/
+/********************************************************/
+@media (max-width: 768px) {
+	.container{
+		max-width: 700px;
+	}
+	.nav-section{
+		display: flow-root;
+	}
+	.nav-section .logo{
+		float: left;
+	}
+	.nav-section .logo img{
+		display: block;
+	}
+	.nav-section .menu-section .toggle {
+	  display: block;
+	  float: right;
+	  width: 60%;
+	  margin-top: 10px;
+	  margin-right: 10px;
+	}
+	.nav-section .menu-section .toggle i{
+		cursor: pointer;
+	}
+	.nav-section .menu-section .toggle .fa-times.close{
+		display: none;
+	}
+	.nav-section .menu-section{
+    position: relative;
+    display: block;
+    width: 100%;
+	}
+	.nav-section .menu-section ul.active {
+    width: 100%;
+    display: block;
+    background: #0E2246;
+    float: left;
+    padding: 0;
+    height: 264px;
+	}
+	.nav-section .menu-section ul{
+		display: none;
+	}
+	.menu-section .toggle .close{
+		display: none;
+	}
+	.nav-section .menu-section .toggle .menu.menu-2{
+		display: none;
+	}
+	.nav-section .menu-section .toggle .close.times-add{
+		display: block;
+	}
+	.nav-section .menu-section ul li {
+    border-bottom: 1px solid #fff;
+    padding: 20px 15px;
+	}
+	.nav-section .menu-section ul li a{
+    font-size: 18px;
+    color: #fff;
+	}
+
+	/* HOME SECTION */
+	.growth-text h1 ,.customer-header h2{
+    font-size: 27px;
+	}
+	.customer-service-section {
+    display: block;
+	}
+	.customer-service-item {
+    width: 45%;
+    float: left;
+    margin: 17px;
+	}
+	.customer-first-part {
+    display: inline-block;
+    width: 100%;
+	}
+	.customer-relation-item {
+    display: block;
+    padding-bottom: 50px;
+    border-bottom: 5px dotted #d8dcde;
+	}
+	.customer-relation-item .relation-left {
+	    width: 70%;
+	    position: relative;
+	    margin: 0 auto;
+	    padding-top: 35px;
+	}
+	.customer-relation-item .relation-right p {
+    font-size: 18px;
+	}
+	.customer-relation-item .relation-left img{
+		width: 100%;
+	}
+	.customer-relation-item .relation-right {
+    width: 100%;
+	}
+	.customer-relation-item .relation-right h2{
+		margin-top: 20px;
+	}
+	.customer-relation-item .relation-right h2,
+	.customer-relation-item .relation-right p{
+    text-align: center;
+    margin-left: 0;
+    width: 100%;
+	}
+
+	.customer-section .btn a {
+    width: 16%;
+  }
+	.slider-item {
+	    display: block;
+	}
+  .slider-item .slider-image {
+    width: 75%;
+    margin-left: 0;
+    margin: 0 auto;
+	}
+	.slider-item .slider-text {
+	    width: 100%;
+	    margin-left: 0;
+	    text-align: center;
+	}
+	.slider-item .slider-text p{
+		width: 100%;
+	}
+	.owl-carousel .owl-nav {
+    top: 24%;
+    width: 100%;
+	}
+	.fa-arrow-circle-right {
+    right: 6%;
+	}
+	.get-in .connect {
+    width: 100%;
+  }
+  .footer-bottom .container .footer-button {
+    width: 100%;
+    text-align: center;
+	}
+	.site-link a,
+	.site-link span{
+		display: block;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 0;
+	}
+
+	/* CONTACT */
+	.contact-form {
+    display: block;
+	}
+	.contact-left, .contact-right {
+    width: 80%;
+    margin: 0 auto;
+	}
+	.contact-right img {
+    width: 100%;
+  }
+
+  .contact-right {
+    margin-top: 100px;
+  }
+
+  .contact-location {
+    display: block;
+  }
+  .location-left, .location-right {
+    width: 90%;
+    margin: 0 auto;
+	}
+	.location-right .location-text {
+    width: 90%;
+    margin-top: 40px;
+    margin-left: 30px;
+	}
+
+	/* KNOWLEDGE SECTION */
+	.knowledge-sub-menu .container ul{
+		display: none;
+	}
+	.knowledge-sub-menu ul.open {
+    width: 100%;
+	  display: block;
+	  height: 130px;
+	}
+	.knowledge-sub-menu ul.join {
+	  height: 50px;
+	}
+	.knowledge-sub-menu ul li {
+    margin-left: 0;
+    padding: 5px 0px;
+	}
+	.responsive-sub-menu p{
+		display: block;
+	}
+	.responsive-sub-menu p i.rotated{
+		transform: rotate(180deg);
+	}
+
+	.knowledge-article-aside {
+    width: 35%;
+  }
+  .knowledge-article-aside .filtering ul li {
+    font-size: 15px;
+	}
+  .knowledge-article-right {
+    width: 65%;
+  }
+	.knowledge-article-right .knowledge-right-item {
+	  display: block;
+	}
+	.knowledge-article-right .knowledge-right-item .knowledge-item-img,
+	.knowledge-article-right .knowledge-right-item .knowledge-item-text {
+    width: 100%;
+	}
+	.knowledge-article-right .knowledge-right-item .knowledge-item-img img{
+		width: 100%;
+	}
+
+	/* CASE STUDIES */
+
+	.knowledge-article-right .case-article-section {
+    display: block;
+  }
+  .knowledge-article-right .case-article-section .case-item-left,
+   .knowledge-article-right .case-article-section .case-item-right {
+    width: 100%;
+    margin: 0px;
+	}
+
+	/* ABOUT US */
+
+	.our-member .member-info {
+    display: block;
+	}
+	.our-member .member-info .section-one {
+    width: 100%;
+    margin-bottom: 50px;
+	}
+	.our-member .member-info .section-one img{
+    width: 50%;
+	}
+	.our-member .member-info .section-one h3 {
+    font-size: 30px;
+	}
+	.our-member h2 {
+    text-align: center;
+    font-size: 35px;
+	}
+	.about-us-full .other-text {
+    display: block;
+    text-align: center;
+	}
+	.about-us-full .other-text img {
+    width: 60%;
+    margin-right: 0;
+  }
+  .about-us-full .other-text p {
+    width: 100%;
+	}
+}
+
+
+
+
+
+
+/********************************************************/
+/* Max-Width 576PX     **********************************/
+/********************************************************/
+@media (max-width: 576px) {
+	.container{
+		max-width: 480px;
+	}
+
+			/* HOME */
+	.customer-service-section {
+	  display: grid;
+	}
+	.growth-text h1, .customer-header h2 {
+	  font-size: 25px;
+	}
+	.customer-service-item {
+    width: 65%;
+    margin: 0 auto;
+    margin-bottom: 70px;
+	}
+	.customer-service-text {
+	  margin-top: -90px;
+	}
+	.customer-service-text h2 {
+    font-size: 25px;
+    padding-top: 100px;
+	}
+	.customer-service-item.item-4 {
+		margin-right: auto;
+	}
+	.owl-carousel .owl-nav {
+    top: 18%;
+	}
+	.fa-arrow-circle-right {
+    right: 0%;
+	}
+	.fa-arrow-circle-left {
+    left: 0%;
+	}
+	.get-in .connect input {
+    width: 45%;
+  }
+	.get-in .connect button {
+    margin-left: -10px;
+  }
+  .customer-section .btn a {
+    width: 25%;
+	}
+
+	/* KNOWLEDGE EXCHANGE */
+	.knowledge-exchange-full .knowledge-header h2 {
+		width: 100%;
+	}
+	.knowledge-article-aside .filtering ul{
+		padding-bottom: 15px;
+	}
+
+	.knowledge-article-full {
+    display: block;
+  }
+	.knowledge-article-aside{
+    width: 100%;
+    display: block;
+    height: inherit;
+    position: inherit;
+	}
+
+
+	/* START FILTERING RESPONSIVE */
+	.knowledge-article-aside ul.view,
+	.knowledge-article-aside h2.view{
+		display: block;
+	}
+	.knowledge-article-aside ul,
+	.knowledge-article-aside h2{
+    display: none;
+	}
+
+	.knowledge-article-aside .filtering .filter{
+		display: block;
+	}
+	.knowledge-article-aside .filtering .filter span.view-2{
+		display: block;
+	}
+
+	.knowledge-article-aside .filtering .filter span{
+		display: none;
+	}
+	.knowledge-article-aside .filtering .filter p.remove{
+		display: none;
+	}
+	.knowledge-article-aside .filtering h3.view-3{
+		display: block;
+	}
+	.knowledge-article-aside .filtering h3{
+		display: none;
+	}
+	/* END FILTERING RESPONSIVE */
+
+
+
+	.knowledge-article-aside h2 {
+	  font-size: 20px;
+	  padding-top: 30px;
+	}
+ .knowledge-article-right {
+    width: 100%;
+    padding-top: 80px;
+	}
+	.knowledge-article-right .knowledge-right-item {
+    margin-left: 0;
+    margin-bottom: 70px;
+	}
+
+	/* CASE SECTION */
+	.knowledge-article-right .case-article-section {
+    margin-left: 0;
+	}
+	.knowledge-exchange-full .knowledge-header h2 {
+    font-size: 25px;
+	}
+	.knowledge-exchange-full .knowledge-header p {
+    font-size: 15px;
+	}
+	.knowledge-article-right .case-article-section .case-item-left,
+	.knowledge-article-right .case-article-section .case-item-right {
+    margin-bottom: 70px;
+	}
+
+
+	/* ABOUT US */
+	.about-us-full h2,
+	.our-member .member-info .section-one h3,
+	.get-in .connect h2 {
+    font-size: 25px;
+	}
+	.about-us-full p,
+	.get-in .connect p {
+    font-size: 16px;
+  }
+  .get-in .connect input {
+    width: 40%;
+    height: 35px;
+	}
+	.get-in .connect button {
+    padding: 10px 20px;
+  }
+
+
+  .position a {
+    display: block;
+    font-size: 21px;
+  }
+}
+
+
+
+
+/********************************************************/
+/* Max-Width 480PX     **********************************/
+/********************************************************/
+@media (max-width: 480px) {
+	.container{
+		max-width: 390px;
+	}
+
+}
+
+
+
+
+/********************************************************/
+/* Max-Width 320PX     **********************************/
+/********************************************************/
+@media (max-width: 320px) {
+	.container{
+		width: 320px;
+	}
+	.site-link .img-2{
+		width: 85%;
+	}
+	.nav-section .menu-section ul.active {
+    height: 252px;
+	}
+
+	/* HOME */
+	.growth-text h1, .customer-header h2 {
+    font-size: 20px;
+	}
+	.nav-section .menu-section ul li a,
+	.growth-text p,
+	.customer-service-text p {
+    font-size: 13px;
+	}
+	.customer-service-item {
+    width: 75%;
+	}
+	.customer-header h2 {
+    margin-bottom: 0px;
+	}
+	.customer-relation-item .relation-right h2,
+	.customer-relation-item .relation-right p a {
+    font-size: 18px;
+	}
+	.customer-relation-item .relation-right p {
+    font-size: 13px;
+	}
+	.customer-section .btn a {
+    font-size: 13px;
+	}
+	.client-section .container > h2 {
+    font-size: 21px;
+	}
+	.owl-carousel .owl-nav {
+    top: 19%;
+	}
+	.slider-text h2{
+		font-size: 20px;
+	}
+	.slider-item .slider-text p {
+    width: 100%;
+    font-size: 12px;
+    line-height: 1.5;
+	}
+	.slider-item .slider-text p span {
+    margin-top: -15px;
+    margin-bottom: -18px;
+	}
+	.get-in .connect .social-icon a {
+    margin-right: 8px;
+	}
+	.footer-bottom .container .footer-button .sc {
+    padding: 10px 10px;
+	}
+	.footer-bottom p {
+    font-size: 13px;
+	}
+
+	/*KNOWLEDGE */
+	.knowledge-exchange-full .knowledge-header h2 {
+    font-size: 20px;
+	}
+	.responsive-sub-menu p,
+	.responsive-sub-menu p i {
+    font-size: 17px;
+  }
+  .knowledge-sub-menu ul li a {
+    font-size: 15px;
+	}
+	.knowledge-article-aside .filtering .filter p,
+	 .knowledge-article-aside .filtering .filter span {
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .knowledge-article-aside .filtering .filter span {
+    top: 70px;
+	}
+	.knowledge-article-aside .filtering ul li {
+    font-size: 13px;
+	}
+	.knowledge-article-right .knowledge-right-item .knowledge-item-text a {
+    font-size: 16px;
+  }
+	.knowledge-article-right .knowledge-right-item .knowledge-item-text p {
+	    font-size: 12px;
+	}
+	.knowledge-article-right .knowledge-right-item .knowledge-item-img,
+	 .knowledge-article-right .knowledge-right-item .knowledge-item-text {
+    width: 95%;
+    margin: 0 auto;
+	}
+	.knowledge-item-text{
+		text-align: center;
+	}
+
+			/*CASE */
+	.knowledge-exchange-full .knowledge-header p {
+    font-size: 13px;
+	}
+	.case-item-img{
+		width: 95%;
+	  margin: 0 auto;
+	}
+	.case-item-text p {
+    font-weight: 500;
+    font-size: 13px;
+    width: 95%;
+	}
+	.case-item-text h2{
+    font-size: 20px;
+	}
+	.case-item-text span {
+    font-size: 10px;
+    width: 95%;
+    margin: 0 auto;
+	}
+
+	/* ABOUT */
+	.about-us-full p, .get-in .connect p {
+    font-size: 13px;
+    width: 95%!important;
+    text-align: center;
+	  margin: 0 auto;
+	  margin-top: 30px;
+	}
+	.about-us-full h2, .our-member .member-info .section-one h3, .get-in .connect h2 {
+    font-size: 20px;
+    text-align: center;
+	}
+	.our-member .member-info .section-one p span a {
+    font-size: 20px;
+  }
+  .about-us-full p, .get-in .connect p {
+    margin-bottom: 25px;
+	}
+
+	/* CONTACT */
+	.contact-header h2,
+	.contact-left h2  {
+    font-size: 25px;
+	}
+	form label {
+    font-size: 15px;
+  }
+  .name-service input {
+    width: 45%;
+	}
+	.name-service input, .email-service input {
+    font-size: 12px;
+  }
+  .email-service input {
+    width: 94%;
+	}
+	.location-right .location-text h2 {
+    font-size: 25px;
+  }
+  .location-text ul li {
+    line-height: 2;
+    font-size: 15px;
+	}
+	.location-text h3 {
+    font-size: 20px;
+	}
+	.location-text p{
+		font-size: 15px;
+	}
+
+	/* CAREER SECTION */
+	.career-section p {
+    font-size: 15px;
+    width: 95%;
+    margin: 0 auto;
+	}
+	.position h2 {
+    font-size: 25px;
+  }
+	.position a {
+    display: block;
+    font-size: 15px;
+	}
+}
+
+
